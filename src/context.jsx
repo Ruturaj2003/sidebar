@@ -15,11 +15,11 @@ export const AppProvider = ({ children }) => {
   };
 
   const openModal = () => {
-    setIsSidebarOpen(true);
+    setIsModalOpen(true);
   };
 
   const closeModal = () => {
-    setIsSidebarOpen(false);
+    setIsModalOpen(false);
   };
   return (
     <AppContext.Provider
